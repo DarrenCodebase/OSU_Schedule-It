@@ -51,8 +51,12 @@ Run `git help` for complete list of up-to-date options.
 
 Then, to install source code locally on your machine using a terminal of your choice, simply type the following command:
 ```
-git clone https://github.com/Jason-0118/OSU_ScheduleIT
+git clone https://github.com/DarrenCodebase/OSU_Schedule-It.git
    ```
+   Or, if you're using the GitHub CLI, you can run:
+```
+gh repo clone DarrenCodebase/OSU_Schedule-It
+   ``` 
 That will copy the contents of this repository into your current working directory. 
 
 Go to a browser of your choice and type:
