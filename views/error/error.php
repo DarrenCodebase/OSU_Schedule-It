@@ -14,7 +14,7 @@ switch ($error_code) {
         $title = 'Page not found';
 }
 
-echo $twig->render('errors/error_logged_out.twig', [
+echo $twig->render('error/error_logged_out.twig', [
     'message' => $message,
     'title' => $title
 ]);
