@@ -10,13 +10,13 @@ ob_start();
 
 // set paths for website header and footer sections of webpage
 $header_path = $footer_path = $_SERVER['DOCUMENT_ROOT'];
-$header_path .= "/OSU_ScheduleIT/header.php";
-$footer_path .= "/OSU_ScheduleIT/footer.php";
+$header_path .= "/OSU_Schedule-It/header.php";
+$footer_path .= "/OSU_Schedule-It/footer.php";
 include_once($header_path);
 
 //account info for test
-$onid = "zhangxin2";
-$att_onid = "test_onid";
+$onid = "student_username";
+$att_onid = "student_onid";
 
 //get all idEvent for creator
 $sql_idEvent = "SELECT idEvent FROM event WHERE hashUsers = (SELECT hashUsers FROM users WHERE onid = '$onid' )";
