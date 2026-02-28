@@ -34,7 +34,7 @@ if (
     header('Location: ' . $redirect_url);
 }
 
-echo $twig->render('home/login.twig', [
+echo $twig->render('user/login.twig', [
   'error' => $error,
   'onid' => !empty($_SESSION['user_onid']) ? $_SESSION['user_onid'] : '',
   'redirect_url' => $redirect_url,
